@@ -37,7 +37,7 @@ class CSVToJavaObjectsTest {
         );
 
         List<Contact> actualContacts = CSVToJavaObjects.convertCSVToContacts(filepath);
-        
+
         assertEquals(expectedContacts.size(), actualContacts.size());
         for (int i = 0; i < expectedContacts.size(); i++) {
             assertEquals(expectedContacts.get(i).toString(), actualContacts.get(i).toString());
