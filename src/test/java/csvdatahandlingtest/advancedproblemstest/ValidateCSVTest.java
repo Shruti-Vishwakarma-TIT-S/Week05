@@ -49,7 +49,7 @@ class ValidateCSVTest {
                 "Invalid row: 4, Priya Iyer, priya.iyer@example.com, 123456789\n" +
                 "Error: Invalid email or phone number format.\n" +
                 "5, Arjun Mehta, arjun.mehta@example.com, 1234567890\n";
-        
+
         assertEquals(expectedOutput.trim(), actualOutput.trim());
     }
 }
