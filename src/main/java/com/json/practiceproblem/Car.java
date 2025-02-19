@@ -6,6 +6,9 @@ public class Car {
     private int yearOfManufacture;
     private double price;
 
+    public Car(){
+
+    }
     // Constructor to initialize the Car object
     public Car(String brand, int yearOfManufacture, double price) {
         this.brand = brand;
