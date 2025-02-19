@@ -1,4 +1,4 @@
-package com.json.handsonpractice;
+package com.json.practiceproblem;
 
 import org.json.JSONObject;
 import org.json.JSONArray;
